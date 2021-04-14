@@ -23,6 +23,7 @@ module.exports.load = ()=>{
             options.achievement.lang = steamLanguages.find(lang => lang.webapi == locale).api;
           }catch(err){
             options.achievement.lang = "english";
+              //XD
           }
         }
 
